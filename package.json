@@ -1,8 +1,8 @@
 {
-  "name": "sass-websites",
+  "name": "sassy-websites",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/nayeonshin/sass-websites",
+  "repository": "https://github.com/nayeonshin/sassy-websites",
   "author": "Nayeon Shin <nayeon.codes@gmail.com>",
   "license": "MIT",
   "dependencies": {
