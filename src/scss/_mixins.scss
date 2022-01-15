@@ -1,0 +1,34 @@
+$min-iphone: 500px;
+$max-iphone: 690px;
+$min-tablet: $min-iphone+1; // Just an example
+$max-tablet: 1120px;
+
+@mixin responsive($device) {
+    @if $device=="iphone" {
+        @media screen and (min-width: $min-iphone) and (max-width: $max-iphone) {
+            @content;
+        }
+    }
+
+    @else if $device=="tablet" {
+        @media screen and (min-width: $min-tablet) and (max-width: $max-tablet) and (orientation: landscape) {
+            @content;
+        }
+    }
+
+    @else if $device=="iphone-l" {
+
+        // iPhone landscape
+        @media screen and (min-width: $min-iphone) and (max-width: $max-iphone) and (orientation: landscape) {
+            @content;
+        }
+    }
+
+    @else if $device=="ipad-l" {
+
+        // iPad landscape
+        @media screen and (min-width: $min-tablet) and (max-width: $max-tablet) and (orientation: landscape) {
+            @content;
+        }
+    }
+}
