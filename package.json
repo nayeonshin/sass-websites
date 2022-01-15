@@ -1,8 +1,8 @@
 {
-  "name": "sassy-websites",
+  "name": "scss-practice",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/nayeonshin/sassy-websites",
+  "repository": "https://github.com/nayeonshin/scss-practice",
   "author": "Nayeon Shin <nayeon.codes@gmail.com>",
   "license": "MIT",
   "dependencies": {
