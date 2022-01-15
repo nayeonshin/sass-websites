@@ -1,0 +1,5 @@
+@mixin link($color) {
+  color: $color;
+  display: block;
+  text-decoration: none;
+}
